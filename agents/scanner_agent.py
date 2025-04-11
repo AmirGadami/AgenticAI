@@ -1,4 +1,3 @@
-
 import os
 import json
 from typing import Optional, List
@@ -92,3 +91,4 @@ class ScannerAgent(Agent):
             self.log(f"Scanner Agent received {len(result.deals)} selected deals with price>0 from OpenAI")
             return result
         return None
+                
